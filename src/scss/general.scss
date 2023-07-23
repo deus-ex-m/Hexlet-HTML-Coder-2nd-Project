@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
+.page {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #cacaca;
+
+  background-color: #08020d;
+}
+
+.title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title-big {
+  font-size: 30px;
+  line-height: 45px;
+
+  @media only screen and (width >= 1240px) {
+    font-size: 60px;
+    line-height: 90px;
+  }
+}
+
+.title-small {
+  font-size: 18px;
+  line-height: 27px;
+
+  @media only screen and (width >= 1240px) {
+    font-size: 38px;
+    line-height: 57px;
+  }
+}
