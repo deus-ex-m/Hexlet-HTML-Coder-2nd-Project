@@ -6,7 +6,42 @@
   <title>Music Box</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-  
+<body class="page">
+  <section id="page-description" class="page-description">
+    <div class="container">
+      <header class="header">
+        <div class="header-logo">
+          <img class="header-logo-img" src="./images/logo.svg" alt="logo">
+          music box
+        </div>
+        <div class="header-nav">
+          <a class="header-nav-item" href="#">Главная</a>
+          <a class="header-nav-item" href="#">Каталог</a>
+          <a class="header-nav-item" href="#">Исполнители</a>
+          <a class="header-nav-item" href="#">Контакты</a>
+        </div>
+        <form class="header-search">
+          <label for="search"></label>
+          <input class="header-search-input" type="text" id="search" placeholder="Поиск...">
+        </form>
+      </header>
+      <div class="page-description-banner">
+        <h1 class="title title-big">Онлайн музыка где угодно</h1>
+        <h2 class="title title-small page-description-banner-title">без ограничений</h2>
+        <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+        <div class="page-description-banner-form">
+          <form class="page-description-banner-form-container">
+            <label>
+              <input class="page-description-banner-form-input" type="text" placeholder="Имя">
+            </label>
+            <label>
+              <input class="page-description-banner-form-input" type="email" placeholder="Email">
+            </label>
+            <button class="page-description-banner-form-button" type="submit">Получить доступ</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>

@@ -1,0 +1,100 @@
+.page-description {
+  position: relative;
+
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+
+  margin: 0;
+
+  text-align: center;
+
+  @media only screen and (width <= 1240px) {
+    padding: 20px;
+  }
+}
+
+
+
+.page-description-banner {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  padding: 200px 0;
+
+  @media only screen and (width <= 1240px) {
+    width: $mobile-width;
+    padding-top: 250px;
+  }
+}
+
+.page-description-banner-title {
+  margin-bottom: 14px;
+
+  @media only screen and (width <= 600px) {
+    margin-bottom: 0;
+  }
+}
+
+.page-description-banner-form {
+  display: grid;
+  justify-content: center;
+}
+
+.page-description-banner-form-container {
+  max-width: 570px;
+
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2, auto);
+  column-gap: 24px;
+
+  @media only screen and (width <= 600px) {
+    width: $mobile-width;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: auto;
+  }
+}
+
+.page-description-banner-form-input {
+  min-width: 270px;
+  min-height: 50px;
+  box-sizing: border-box;
+
+  padding: 0 0 0 20px;
+  margin-bottom: 1.5rem;
+
+  border: 2px solid $light;
+  border-radius: 3px;
+
+  background-color: rgba(0 0 0 / 0%);
+
+  @media only screen and (width <= 600px) {
+    width: 100%;
+  }
+}
+
+.page-description-banner-form-input::placeholder {
+  font-weight: bold;
+  color: $white;
+}
+
+.page-description-banner-form-input:focus {
+  outline: none;
+}
+
+.page-description-banner-form-button {
+  grid-column: span 2;
+
+  padding: 20px 30px;
+  border-radius: 5px;
+  background-color: $green;
+
+  text-transform: uppercase;
+  color: $white;
+
+  @media only screen and (width <= 600px) {
+    grid-column: auto;
+  }
+}

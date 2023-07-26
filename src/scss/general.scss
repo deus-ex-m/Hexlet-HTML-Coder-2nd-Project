@@ -17,29 +17,155 @@
   color: #cacaca;
 
   background-color: #08020d;
+
+  margin: 0;
 }
 
 .title {
   font-weight: bold;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .title-big {
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 60px;
+  line-height: 90px;
 
-  @media only screen and (width >= 1240px) {
-    font-size: 60px;
-    line-height: 90px;
+  @media only screen and (width <= 1240px) {
+    font-size: 30px;
+    line-height: 45px;
   }
 }
 
 .title-small {
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 38px;
+  line-height: 57px;
 
-  @media only screen and (width >= 1240px) {
-    font-size: 38px;
-    line-height: 57px;
+  @media only screen and (width <= 1240px) {
+    font-size: 18px;
+    line-height: 27px;
   }
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+
+  @media only screen and (width <= 1240px) {
+    width: $mobile-width;
+  }
+}
+
+.header {
+  position: absolute;
+  top: 25px;
+  width: 100vw;
+  max-width: 1200px;
+
+  display: grid;
+  grid-template-columns: auto repeat(2, 1fr);
+  gap: 90px;
+  align-items: center;
+
+  font-size: 11px;
+  text-transform: uppercase;
+
+  @media only screen and (width <= 1240px) {
+    width: $mobile-width;
+  
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+
+    gap: 18px;
+  }
+
+  @media only screen and (width <= 600px) {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+  }
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  @media only screen and (width <= 600px) {
+    font-weight: bold;
+  }
+}
+
+.header-logo-img {
+  width: 24px;
+}
+
+.header-nav {
+  justify-self: start;
+  display: flex;
+  gap: 24px;
+  color: $light;
+
+  @media only screen and (width <= 1240px) {
+    justify-self: end;
+  }
+
+  @media only screen and (width <= 600px) {
+    justify-self: start;
+    gap: 3px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-weight: bold;
+  }
+}
+
+.header-nav-item {
+  color: $light;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-nav-item:hover {
+  color: $white;
+}
+
+.header-search {
+  justify-self: end;
+
+  @media only screen and (width <= 1240px) {
+    grid-column: span 2;
+    justify-self: start;
+  }
+
+  @media only screen and (width <= 600px) {
+    grid-column: span 1;
+  }
+}
+
+.header-search-input {
+  height: 25px;
+  width: 250px;
+  padding: 0 10px;
+
+  color: $grey;
+  background-color: $dark-grey;
+
+  border: none;
+  border-radius: 25px;
+
+  @media only screen and (width <= 600px) {
+    width: calc($mobile-width - 20px);
+  }
+}
+
+.header-search-input::placeholder {
+  line-height: 0;
+  text-transform: uppercase;
+
+  color: $grey;
+  background-color: $dark-grey;
+}
+
+.header-search-input:focus {
+  outline: none;
 }
