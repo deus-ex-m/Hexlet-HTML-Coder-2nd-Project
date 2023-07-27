@@ -1,0 +1,114 @@
+.page-pricing-container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding-top: 100px;
+}
+
+.page-pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  column-gap: 50px;
+
+  margin-top: 50px;
+
+  @for $i from 1 to 4 {
+    .page-pricing-cards-item:nth-of-type(#{$i}) {
+      background-image: url("../images/subscribe_#{$i}.png");
+    }
+  }
+
+  @media only screen and (width <= 1240px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 50px;
+  }
+
+  @media only screen and (width <= 840px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+.page-pricing-cards-item {
+  box-sizing: border-box;
+
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+
+  background-position: center;
+  background-size: cover;
+
+  @media only screen and (width <= 1240px) {
+    width: 366px;
+  }
+
+  @media only screen and (width <= 840px) {
+    width: 375px;
+  }
+}
+
+.page-pricing-cards-item-title {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  margin-top: 1em;
+  margin-bottom: 0;
+
+  @media only screen and (width <= 600px) {
+    font-size: 16px;
+  }
+}
+
+.page-pricing-cards-item-price {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+
+  font-size: 64px;
+  line-height: 1em;
+
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+
+.page-pricing-cards-item-price-currency {
+  font-size: 32px;
+  line-height: 1em;
+}
+
+.page-pricing-cards-item-button {
+  display: block;
+
+
+  border-radius: 5px;
+  border: 1px solid $white;
+
+  padding: 20px 30px;
+  background-color: rgba(0 0 0 / 0%);
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white;
+
+  cursor: pointer;
+}
+
+.page-pricing-cards-item-disclaimer {
+  font-size: 0.8rem;
+
+  margin: 64px auto;
+}
+
+.page-pricing-disclaimer {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
