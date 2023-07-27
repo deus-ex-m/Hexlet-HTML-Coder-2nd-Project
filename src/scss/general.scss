@@ -14,7 +14,7 @@
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #cacaca;
+  color: $white;
 
   background-color: #08020d;
 
@@ -31,7 +31,7 @@
   font-size: 60px;
   line-height: 90px;
 
-  @media only screen and (width <= 1240px) {
+  @media only screen and (width <= 600px) {
     font-size: 30px;
     line-height: 45px;
   }
@@ -41,7 +41,7 @@
   font-size: 38px;
   line-height: 57px;
 
-  @media only screen and (width <= 1240px) {
+  @media only screen and (width <= 600px) {
     font-size: 18px;
     line-height: 27px;
   }
