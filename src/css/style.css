@@ -21,6 +21,7 @@
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
+  text-align: center;
 }
 
 .title-big {
@@ -48,6 +49,7 @@
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-top: 100px;
 }
 @media only screen and (width <= 1240px) {
   .container {
@@ -186,12 +188,12 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  padding: 200px 0;
+  padding: 100px 0;
 }
 @media only screen and (width <= 1240px) {
   .page-description-banner {
     width: calc(100vw - 40px);
-    padding-top: 250px;
+    padding-top: 150px;
   }
 }
 
@@ -271,7 +273,6 @@
   justify-items: center;
   align-items: center;
   text-align: center;
-  padding-top: 100px;
 }
 
 .page-pricing-cards {
@@ -373,6 +374,88 @@
 .page-pricing-disclaimer {
   margin-top: 40px;
   margin-bottom: 0;
+}
+
+.page-news-container {
+  display: flex;
+  row-gap: 65px;
+  flex-direction: column;
+  margin-top: 48px;
+}
+.page-news-container > :nth-child(even) {
+  flex-direction: row-reverse;
+}
+@media only screen and (width <= 1010px) {
+  .page-news-container > :nth-child(even) {
+    flex-direction: column;
+  }
+}
+@media only screen and (width <= 1010px) {
+  .page-news-container {
+    column-gap: 65px;
+  }
+}
+
+.page-news-container-item {
+  display: flex;
+  gap: 50px;
+}
+.page-news-container-item > * {
+  flex-basis: 50%;
+}
+@media only screen and (width <= 1010px) {
+  .page-news-container-item {
+    flex-direction: column;
+  }
+}
+
+.page-news-container-item-title {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 0;
+}
+@media only screen and (width <= 1010px) {
+  .page-news-container-item-title {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (width <= 600px) {
+  .page-news-container-item-title {
+    font-size: 16px;
+  }
+}
+
+.page-news-container-item-body {
+  margin-bottom: 24px;
+}
+
+.page-news-container-item-author {
+  font-size: 12px;
+  line-height: 1.6;
+  display: flex;
+  column-gap: 16px;
+}
+
+.page-news-container-item-author-name {
+  text-transform: uppercase;
+  color: #F89202;
+}
+
+.page-news-container-item-button {
+  display: inline-block;
+  margin-top: 48px;
+  width: 135px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+  padding: 16px 30px;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #cacaca;
 }
 
 /*# sourceMappingURL=style.css.map */
