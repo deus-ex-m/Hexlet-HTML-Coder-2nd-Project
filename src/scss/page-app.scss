@@ -1,0 +1,35 @@
+.page-app-container {
+  margin-top: 48px;
+  padding-bottom: 100px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 40px;
+  justify-items: center;
+
+  @media only screen and (width <= 800px) {
+    grid-auto-flow: dense;
+    grid-template-columns: auto;
+    gap: 0;
+
+    > :nth-child(1) {
+      grid-row-start: 2;
+    }
+  }
+}
+
+.page-app-container-button {
+  display: inline-block;
+
+  border-radius: 32px;
+  border: none;
+
+  padding: 16px 40px;
+  background-color: $red;
+
+  font-family: Roboto, sans-serif;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: $white;
+}
