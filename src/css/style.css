@@ -636,4 +636,44 @@
   filter: invert(1);
 }
 
+.page-popular-track-title {
+  text-align: left;
+}
+
+.page-popular-track-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 50px;
+  margin-top: 50px;
+}
+@media only screen and (width <= 600px) {
+  .page-popular-track-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.page-popular-track-container-item {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.page-popular-track-container-item-image {
+  width: 55px;
+  height: 55px;
+  margin-right: 16px;
+}
+
+.page-popular-track-container-item-track-name {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.page-popular-track-container-item-time {
+  text-align: right;
+  flex-grow: 1;
+}
+
 /*# sourceMappingURL=style.css.map */
