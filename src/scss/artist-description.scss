@@ -1,0 +1,85 @@
+.artist-description {
+  position: relative;
+
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+
+  margin: 0;
+
+  text-align: left;
+
+  @media only screen and (width <= 1240px) {
+    padding: 20px;
+  }
+}
+
+.artist-description-banner {
+  display: grid;
+  justify-content: left;
+  align-items: center;
+
+  padding-top: 100px;
+  padding-bottom: 200px;
+
+  @media only screen and (width <= 1240px) {
+    width: $mobile-width;
+
+    padding-top: 80px;
+    padding-bottom: 180px;
+  }
+}
+
+.artist-description-banner-title {
+  margin-top: 50px;
+  text-align: left;
+
+  @media only screen and (width <= 600px) {
+    margin-top: 25px;
+  }
+}
+
+.artist-description-banner-fans {
+  margin-bottom: 0;
+}
+
+.artist-description-banner-buttons-container {
+  display: flex;
+  gap: 24px;
+
+  margin-top: 50px;
+  margin-bottom: 25px;
+
+  > :nth-child(even) {
+    background-color: $red;
+  }
+
+  @media only screen and (width <= 600px) {
+    flex-direction: column;
+  }
+}
+
+.artist-description-banner-buttons-container-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  width: 200px;
+
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: $purple;
+
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: $white;
+
+  cursor: pointer;
+}
+
+.artist-description-banner-buttons-container-button-logo {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}

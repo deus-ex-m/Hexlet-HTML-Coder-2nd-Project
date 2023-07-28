@@ -6,7 +6,40 @@
   <title>Music Box</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-
+<body class="page">
+  <section id="page-description" class="artist-description">
+    <div class="container">
+      <header class="header">
+        <div class="header-logo">
+          <img class="header-logo-img" src="./images/logo.svg" alt="logo">
+          music box
+        </div>
+        <div class="header-nav">
+          <a class="header-nav-item" href="#">Главная</a>
+          <a class="header-nav-item" href="#">Каталог</a>
+          <a class="header-nav-item" href="#">Исполнители</a>
+          <a class="header-nav-item" href="#">Контакты</a>
+        </div>
+        <form class="header-search">
+          <label for="search"></label>
+          <input class="header-search-input" type="text" id="search" placeholder="Поиск...">
+        </form>
+      </header>
+      <div class="artist-description-banner">
+        <h1 class="title title-big artist-description-banner-title">Morten Harket</h1>
+        <p class="artist-description-banner-fans">24 875 поклонников</p>
+        <div class="artist-description-banner-buttons-container">
+          <button class="artist-description-banner-buttons-container-button">
+            <img class="artist-description-banner-buttons-container-button-logo" src="../src/images/play-button.svg" alt="play">
+            Микс
+          </button>
+          <button class="artist-description-banner-buttons-container-button">
+            <img class="artist-description-banner-buttons-container-button-logo" src="../src/images/heart.svg" alt="favorite">
+            В избранное
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
