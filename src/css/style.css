@@ -112,7 +112,7 @@
 @media only screen and (width <= 600px) {
   .header-nav {
     justify-self: start;
-    gap: 3px;
+    gap: 0;
     flex-direction: column;
     align-items: flex-start;
     font-weight: bold;
@@ -251,12 +251,14 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 @media only screen and (width <= 1240px) {
   .page-description-banner {
     width: calc(100vw - 40px);
-    padding-top: 150px;
+    padding-top: 130px;
+    padding-bottom: 180px;
   }
 }
 
@@ -343,7 +345,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   column-gap: 50px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .page-pricing-cards .page-pricing-cards-item:nth-of-type(1) {
   background-image: url("../images/subscribe_1.png");
@@ -359,6 +361,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     row-gap: 50px;
+    margin-top: 50px;
   }
 }
 @media only screen and (width <= 840px) {
@@ -443,7 +446,7 @@
   display: flex;
   row-gap: 65px;
   flex-direction: column;
-  margin-top: 48px;
+  margin-top: 50px;
 }
 .page-news-container > :nth-child(even) {
   flex-direction: row-reverse;
@@ -456,6 +459,7 @@
 @media only screen and (width <= 1010px) {
   .page-news-container {
     column-gap: 65px;
+    margin-top: 40px;
   }
 }
 
@@ -551,6 +555,85 @@
   font-size: 0.8rem;
   text-decoration: none;
   color: #fff;
+}
+
+.artist-description {
+  position: relative;
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  text-align: left;
+}
+@media only screen and (width <= 1240px) {
+  .artist-description {
+    padding: 20px;
+  }
+}
+
+.artist-description-banner {
+  display: grid;
+  justify-content: left;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+@media only screen and (width <= 1240px) {
+  .artist-description-banner {
+    width: calc(100vw - 40px);
+    padding-top: 80px;
+    padding-bottom: 180px;
+  }
+}
+
+.artist-description-banner-title {
+  margin-top: 50px;
+  text-align: left;
+}
+@media only screen and (width <= 600px) {
+  .artist-description-banner-title {
+    margin-top: 25px;
+  }
+}
+
+.artist-description-banner-fans {
+  margin-bottom: 0;
+}
+
+.artist-description-banner-buttons-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.artist-description-banner-buttons-container > :nth-child(even) {
+  background-color: #95390C;
+}
+@media only screen and (width <= 600px) {
+  .artist-description-banner-buttons-container {
+    flex-direction: column;
+  }
+}
+
+.artist-description-banner-buttons-container-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 200px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5328A1;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+
+.artist-description-banner-buttons-container-button-logo {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
 }
 
 /*# sourceMappingURL=style.css.map */
