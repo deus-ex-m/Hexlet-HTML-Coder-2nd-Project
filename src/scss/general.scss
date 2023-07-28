@@ -25,6 +25,8 @@
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
+
+  text-align: center;
 }
 
 .title-big {
@@ -50,6 +52,7 @@
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-top: 100px;
 
   @media only screen and (width <= 1240px) {
     width: $mobile-width;

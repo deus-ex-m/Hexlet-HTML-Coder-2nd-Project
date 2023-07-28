@@ -21,11 +21,11 @@
   justify-content: center;
   align-items: center;
 
-  padding: 200px 0;
+  padding: 100px 0;
 
   @media only screen and (width <= 1240px) {
     width: $mobile-width;
-    padding-top: 250px;
+    padding-top: 150px;
   }
 }
 
