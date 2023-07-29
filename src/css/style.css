@@ -582,6 +582,7 @@
 
 .artist-description-banner-title {
   text-align: left;
+  margin-top: 3rem;
 }
 @media screen and (max-width: 600px) {
   .artist-description-banner-title {
@@ -724,6 +725,10 @@
   }
 }
 
+.page-similar {
+  padding-bottom: 100px;
+}
+
 .page-similar-title {
   text-align: left;
 }
@@ -732,7 +737,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px 50px;
-  margin-bottom: 100px;
 }
 
 .page-similar-container-item-image {
@@ -785,7 +789,7 @@
 }
 @media screen and (max-width: 420px) {
   .page-similar-container-item-group-name {
-    margin: 12px 0 0;
+    margin: 10px 0 0;
   }
 }
 
