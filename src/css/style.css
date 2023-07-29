@@ -77,7 +77,6 @@
 }
 @media screen and (max-width: 1240px) {
   .header {
-    width: calc(100vw - 40px);
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
     gap: 16px;
@@ -155,21 +154,16 @@
   width: 250px;
   padding: 0 10px;
   color: #757575;
-  background-color: #3C3B3D;
+  background-color: #3c3b3d;
   border: none;
   border-radius: 25px;
-}
-@media screen and (max-width: 600px) {
-  .header-search-input {
-    width: calc(100vw - 40px - 20px);
-  }
 }
 
 .header-search-input::placeholder {
   line-height: 0;
   text-transform: uppercase;
   color: #757575;
-  background-color: #3C3B3D;
+  background-color: #3c3b3d;
 }
 
 .header-search-input:focus {
@@ -196,7 +190,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px 40px;
-  color: #E0E0E0;
+  color: #e0e0e0;
   padding: 62px 0;
 }
 @media screen and (max-width: 800px) {
@@ -212,7 +206,7 @@
 }
 
 .footer-container-menu-item-link {
-  color: #E0E0E0;
+  color: #e0e0e0;
   text-decoration: none;
 }
 
@@ -245,7 +239,7 @@
 }
 
 .footer-container-links-link {
-  color: #E0E0E0;
+  color: #e0e0e0;
   text-decoration: none;
 }
 
@@ -274,11 +268,6 @@
 }
 
 .page-description-banner-form {
-  display: grid;
-  justify-content: center;
-}
-
-.page-description-banner-form-container {
   max-width: 570px;
   display: grid;
   grid-template-rows: repeat(2, auto);
@@ -286,8 +275,7 @@
   column-gap: 24px;
 }
 @media screen and (max-width: 600px) {
-  .page-description-banner-form-container {
-    width: calc(100vw - 40px);
+  .page-description-banner-form {
     grid-template-rows: repeat(3, auto);
     grid-template-columns: auto;
   }
@@ -325,7 +313,7 @@
   padding: 20px 30px;
   border: none;
   border-radius: 5px;
-  background-color: #34C176;
+  background-color: #34c176;
   text-transform: uppercase;
   color: #fff;
   cursor: pointer;
@@ -505,7 +493,7 @@
 
 .page-news-container-item-author-name {
   text-transform: uppercase;
-  color: #F89202;
+  color: #f89202;
 }
 
 .page-news-container-item-button {
@@ -552,7 +540,7 @@
   border-radius: 32px;
   border: none;
   padding: 16px 40px;
-  background-color: #95390C;
+  background-color: #95390c;
   font-family: Roboto, sans-serif;
   font-size: 0.8rem;
   text-decoration: none;
@@ -582,7 +570,6 @@
 }
 @media screen and (max-width: 1240px) {
   .artist-description-banner {
-    width: calc(100vw - 40px);
     padding-top: 80px;
     padding-bottom: 180px;
   }
@@ -609,7 +596,7 @@
   margin-bottom: 25px;
 }
 .artist-description-banner-buttons-container > :nth-child(even) {
-  background-color: #95390C;
+  background-color: #95390c;
 }
 @media screen and (max-width: 600px) {
   .artist-description-banner-buttons-container {
@@ -625,7 +612,7 @@
   padding: 20px 30px;
   border: none;
   border-radius: 5px;
-  background-color: #5328A1;
+  background-color: #5328a1;
   font-size: 0.8rem;
   text-transform: uppercase;
   color: #fff;

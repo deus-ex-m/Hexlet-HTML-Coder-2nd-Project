@@ -6,8 +6,6 @@
   text-align: center;
 }
 
-
-
 .page-description-banner {
   display: grid;
   justify-content: center;
@@ -26,11 +24,6 @@
 }
 
 .page-description-banner-form {
-  display: grid;
-  justify-content: center;
-}
-
-.page-description-banner-form-container {
   max-width: 570px;
 
   display: grid;
@@ -39,7 +32,6 @@
   column-gap: 24px;
 
   @media screen and (max-width: 600px) {
-    width: $mobile-width;
     grid-template-rows: repeat(3, auto);
     grid-template-columns: auto;
   }
