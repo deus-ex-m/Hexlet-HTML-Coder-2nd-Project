@@ -47,15 +47,13 @@
 
 .container {
   width: 1200px;
-  margin: 0 auto;
+  margin: 0 20px;
   padding-top: 100px;
   box-sizing: border-box;
 }
 @media only screen and (width <= 1240px) {
   .container {
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
 
@@ -237,7 +235,8 @@
 }
 
 .page-description {
-  position: relative;
+  display: flex;
+  justify-content: center;
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
@@ -329,6 +328,11 @@
   .page-description-banner-form-button {
     grid-column: auto;
   }
+}
+
+.page-pricing {
+  display: flex;
+  justify-content: center;
 }
 
 .page-pricing-container {
