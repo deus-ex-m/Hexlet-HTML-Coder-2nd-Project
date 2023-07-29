@@ -53,6 +53,10 @@
   font-weight: 700;
 
   margin: 14px 0 0;
+
+  @media screen and (max-width: 420px) {
+    margin: 12px 0 0;
+  }
 }
 
 .page-similar-container-item-group-fans {

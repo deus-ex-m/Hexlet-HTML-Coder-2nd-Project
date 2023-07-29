@@ -31,6 +31,7 @@
   .title-big {
     font-size: 30px;
     line-height: 45px;
+    margin-top: 3rem;
   }
 }
 
@@ -79,7 +80,7 @@
     width: calc(100vw - 40px);
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
-    gap: 15px;
+    gap: 16px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -252,13 +253,6 @@
   align-items: center;
   padding-top: 100px;
   padding-bottom: 200px;
-}
-@media screen and (max-width: 1240px) {
-  .page-description-banner {
-    width: calc(100vw - 40px);
-    padding-top: 150px;
-    padding-bottom: 200px;
-  }
 }
 
 .page-description-banner-title {
@@ -587,7 +581,6 @@
 }
 
 .artist-description-banner-title {
-  margin-top: 50px;
   text-align: left;
 }
 @media screen and (max-width: 600px) {
@@ -789,6 +782,11 @@
   font-size: 18px;
   font-weight: 700;
   margin: 14px 0 0;
+}
+@media screen and (max-width: 420px) {
+  .page-similar-container-item-group-name {
+    margin: 12px 0 0;
+  }
 }
 
 .page-similar-container-item-group-fans {
