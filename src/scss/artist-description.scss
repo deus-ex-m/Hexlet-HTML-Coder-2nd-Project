@@ -9,7 +9,7 @@
 
   text-align: left;
 
-  @media only screen and (width <= 1240px) {
+  @media screen and (max-width: 1240px) {
     padding: 20px;
   }
 }
@@ -22,7 +22,7 @@
   padding-top: 100px;
   padding-bottom: 200px;
 
-  @media only screen and (width <= 1240px) {
+  @media screen and (max-width: 1240px) {
     width: $mobile-width;
 
     padding-top: 80px;
@@ -34,7 +34,7 @@
   margin-top: 50px;
   text-align: left;
 
-  @media only screen and (width <= 600px) {
+  @media screen and (max-width: 600px) {
     margin-top: 25px;
   }
 }
@@ -54,7 +54,7 @@
     background-color: $red;
   }
 
-  @media only screen and (width <= 600px) {
+  @media screen and (max-width: 600px) {
     flex-direction: column;
   }
 }

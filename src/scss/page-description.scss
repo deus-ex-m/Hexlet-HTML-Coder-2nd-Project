@@ -21,7 +21,7 @@
   padding-top: 100px;
   padding-bottom: 200px;
 
-  @media only screen and (width <= 1240px) {
+  @media screen and (max-width: 1240px) {
     width: $mobile-width;
     padding-top: 150px;
     padding-bottom: 200px;
@@ -31,7 +31,7 @@
 .page-description-banner-title {
   margin-bottom: 14px;
 
-  @media only screen and (width <= 600px) {
+  @media screen and (max-width: 600px) {
     margin-bottom: 0;
   }
 }
@@ -49,7 +49,7 @@
   grid-template-columns: repeat(2, auto);
   column-gap: 24px;
 
-  @media only screen and (width <= 600px) {
+  @media screen and (max-width: 600px) {
     width: $mobile-width;
     grid-template-rows: repeat(3, auto);
     grid-template-columns: auto;
@@ -72,7 +72,7 @@
   color: $white;
   font-weight: bold;
 
-  @media only screen and (width <= 600px) {
+  @media screen and (max-width: 600px) {
     width: 100%;
   }
 }
@@ -98,7 +98,7 @@
 
   cursor: pointer;
 
-  @media only screen and (width <= 600px) {
+  @media screen and (max-width: 600px) {
     grid-column: auto;
   }
 }
