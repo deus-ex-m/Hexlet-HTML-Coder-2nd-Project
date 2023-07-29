@@ -42,10 +42,17 @@
   font-size: 38px;
   line-height: 57px;
 
+  margin-bottom: 3rem;
+
   @media screen and (max-width: 600px) {
     font-size: 18px;
     line-height: 27px;
   }
+}
+
+.centred-container {
+  display: flex;
+  justify-content: center;
 }
 
 .container {
@@ -176,7 +183,7 @@
 }
 
 .footer-container {
-  padding-top: 0;
+  padding: 0;
 }
 
 .footer-container-menu {

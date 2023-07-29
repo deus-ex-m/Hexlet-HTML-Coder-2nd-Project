@@ -37,12 +37,18 @@
 .title-small {
   font-size: 38px;
   line-height: 57px;
+  margin-bottom: 3rem;
 }
 @media screen and (max-width: 600px) {
   .title-small {
     font-size: 18px;
     line-height: 27px;
   }
+}
+
+.centred-container {
+  display: flex;
+  justify-content: center;
 }
 
 .container {
@@ -174,7 +180,7 @@
 }
 
 .footer-container {
-  padding-top: 0;
+  padding: 0;
 }
 
 .footer-container-menu {
@@ -234,12 +240,9 @@
 }
 
 .page-description {
-  display: flex;
-  justify-content: center;
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
-  margin: 0;
   text-align: center;
 }
 
@@ -329,11 +332,6 @@
   }
 }
 
-.page-pricing {
-  display: flex;
-  justify-content: center;
-}
-
 .page-pricing-container {
   display: grid;
   justify-items: center;
@@ -346,7 +344,6 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   column-gap: 50px;
-  margin-top: 40px;
 }
 .page-pricing-cards .page-pricing-cards-item:nth-of-type(1) {
   background-image: url("../images/subscribe_1.png");
@@ -447,7 +444,6 @@
   display: flex;
   row-gap: 65px;
   flex-direction: column;
-  margin-top: 50px;
 }
 .page-news-container > :nth-child(even) {
   flex-direction: row-reverse;
@@ -527,8 +523,7 @@
 }
 
 .page-app-container {
-  margin-top: 48px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
@@ -645,7 +640,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px 50px;
-  margin-top: 50px;
 }
 @media screen and (max-width: 600px) {
   .page-popular-track-container {
@@ -685,7 +679,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px 50px;
-  margin-top: 50px;
 }
 
 .page-discography-container-item-image {
@@ -742,7 +735,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px 50px;
-  margin-top: 50px;
   margin-bottom: 100px;
 }
 
