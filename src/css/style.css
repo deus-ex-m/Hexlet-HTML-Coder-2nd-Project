@@ -176,12 +176,20 @@
   outline: none;
 }
 
-.footer-gradient {
+.footer-gradient-container {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  display: grid;
 }
 
 .footer-container {
   padding: 0;
+  display: grid;
+  justify-self: center;
+}
+@media screen and (max-width: 1240px) {
+  .footer-container {
+    padding: 0 20px;
+  }
 }
 
 .footer-container-menu {
@@ -220,6 +228,7 @@
 }
 
 .footer-container-line {
+  width: 100%;
   background-color: #cacaca;
 }
 
