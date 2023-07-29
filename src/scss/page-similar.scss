@@ -32,16 +32,7 @@
 
 .page-similar-container-item-group-info {
   text-align: center;
-}
 
-.page-similar-container-item-group-name {
-  font-size: 18px;
-  font-weight: 700;
-
-  margin: 1rem 0 0;
-}
-
-.page-similar-container-item-group-fans {
   max-width: 250px;
 
   @media screen and (max-width: 600px) {
@@ -53,6 +44,17 @@
   }
 
   @media screen and (max-width: 420px) {
-    max-width: 140px;
+    max-width: 137px;
   }
+}
+
+.page-similar-container-item-group-name {
+  font-size: 18px;
+  font-weight: 700;
+
+  margin: 14px 0 0;
+}
+
+.page-similar-container-item-group-fans {
+  color: $light;
 }
