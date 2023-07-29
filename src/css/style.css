@@ -79,7 +79,7 @@
     width: calc(100vw - 40px);
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
-    gap: 18px;
+    gap: 15px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -414,6 +414,7 @@
 .page-pricing-cards-item-price-currency {
   font-size: 32px;
   line-height: 1em;
+  text-transform: uppercase;
 }
 
 .page-pricing-cards-item-button {
