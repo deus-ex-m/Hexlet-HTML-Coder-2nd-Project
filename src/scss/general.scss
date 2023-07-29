@@ -226,11 +226,7 @@
   font-size: 18px;
   text-align: left;
 
-  margin-bottom: 12px;
-
-  @media screen and (max-width: 800px) {
-    margin-bottom: 16px;
-  }
+  margin-bottom: 1rem;
 }
 
 .footer-container-menu-item-social-networks {
