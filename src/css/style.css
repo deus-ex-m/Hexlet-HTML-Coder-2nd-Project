@@ -221,6 +221,11 @@
   text-align: left;
   margin-bottom: 12px;
 }
+@media screen and (max-width: 800px) {
+  .footer-container-menu-item-title {
+    margin-bottom: 16px;
+  }
+}
 
 .footer-container-menu-item-social-networks {
   display: flex;
