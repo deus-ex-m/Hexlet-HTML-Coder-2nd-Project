@@ -14,8 +14,6 @@
   max-width: 250px;
   max-height: 250px;
 
-  margin-bottom: 12px;
-
   @media screen and (max-width: 600px) {
     max-width: 200px;
     max-height: 200px;
@@ -40,7 +38,7 @@
   font-size: 18px;
   font-weight: 700;
 
-  margin: 0;
+  margin: 1rem 0 0;
 }
 
 .page-similar-container-item-group-fans {

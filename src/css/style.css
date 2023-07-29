@@ -320,6 +320,7 @@
 .page-description-banner-form-button {
   grid-column: span 2;
   padding: 20px 30px;
+  border: none;
   border-radius: 5px;
   background-color: #34C176;
   text-transform: uppercase;
@@ -359,7 +360,6 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     row-gap: 50px;
-    margin-top: 50px;
   }
 }
 @media screen and (max-width: 840px) {
@@ -522,8 +522,11 @@
   color: #cacaca;
 }
 
-.page-app-container {
+.page-app {
   margin-bottom: 100px;
+}
+
+.page-app-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
@@ -741,7 +744,6 @@
 .page-similar-container-item-image {
   max-width: 250px;
   max-height: 250px;
-  margin-bottom: 12px;
 }
 @media screen and (max-width: 600px) {
   .page-similar-container-item-image {
@@ -769,7 +771,7 @@
 .page-similar-container-item-group-name {
   font-size: 18px;
   font-weight: 700;
-  margin: 0;
+  margin: 1rem 0 0;
 }
 
 .page-similar-container-item-group-fans {
