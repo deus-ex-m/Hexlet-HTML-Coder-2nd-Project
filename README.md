@@ -1,4 +1,4 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/deus-ex-m/layout-designer-project-56/workflows/hexlet-check/badge.svg)](https://github.com/deus-ex-m/layout-designer-project-56/actions)
+[![Actions Status](https://github.com/dead-duke/hexlet-html-coder-2-music-box/workflows/hexlet-check/badge.svg)](https://github.com/dead-duke/hexlet-html-coder-2-music-box/actions)
 
-[Deployed site](http://hexlet-html-coder-2nd-project.deus-ex-m.surge.sh/)
+[Deployed site](http://music-box.dead-duke.surge.sh)
