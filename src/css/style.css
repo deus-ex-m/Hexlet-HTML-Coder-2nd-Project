@@ -1,15 +1,15 @@
 @font-face {
-  font-family: Roboto;
+  font-family: roboto;
   src: url("../fonts/Roboto-Regular.ttf");
   font-weight: 400;
 }
 @font-face {
-  font-family: Roboto;
+  font-family: roboto;
   src: url("../fonts/Roboto-Bold.ttf");
   font-weight: 700;
 }
 .page {
-  font-family: Roboto, sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
@@ -412,7 +412,7 @@
   border: 1px solid #fff;
   padding: 20px 30px;
   background-color: rgba(0, 0, 0, 0);
-  font-family: Roboto, sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
@@ -504,7 +504,7 @@
   border: 1px solid #cacaca;
   padding: 16px 30px;
   background-color: rgba(0, 0, 0, 0);
-  font-family: Roboto, sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 12px;
   line-height: 1.6;
   text-transform: uppercase;
@@ -540,7 +540,7 @@
   border: none;
   padding: 16px 40px;
   background-color: #95390c;
-  font-family: Roboto, sans-serif;
+  font-family: roboto, sans-serif;
   font-size: 0.8rem;
   text-decoration: none;
   color: #fff;
