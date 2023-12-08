@@ -1,17 +1,17 @@
 @font-face {
   font-family: Roboto;
-  src: url("../fonts/Roboto-Regular.ttf");
+  src: url("#{$roboto-font-path}Regular.ttf");
   font-weight: 400;
 }
 
 @font-face {
   font-family: Roboto;
-  src: url("../fonts/Roboto-Bold.ttf");
+  src: url("#{$roboto-font-path}Bold.ttf");
   font-weight: 700;
 }
 
 .page {
-  font-family: Roboto, sans-serif;
+  font-family: $roboto-font;
   font-size: 16px;
   line-height: 1.5;
   color: $white;
