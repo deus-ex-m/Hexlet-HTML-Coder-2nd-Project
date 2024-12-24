@@ -1,4 +1,5 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/dead-duke/hexlet-html-coder-2-music-box/workflows/hexlet-check/badge.svg)](https://github.com/dead-duke/hexlet-html-coder-2-music-box/actions)
+# Hexlet: "Music box"
 
-[Deployed site](http://music-box.dead-duke.surge.sh)
+[![hexlet-check](https://github.com/grim-vagabond/hexlet-html-coder-2-music-box/actions/workflows/hexlet-check.yml/badge.svg?branch=main)](https://github.com/grim-vagabond/hexlet-html-coder-2-music-box/actions/workflows/hexlet-check.yml)
+
+[Deployed site](http://hexlet-html-coder-2-music-box.surge.sh)
